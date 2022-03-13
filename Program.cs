@@ -8,7 +8,13 @@ namespace LinkedList
         static void Main(string[] args)
         {
 
-            Console.WriteLine("Welcome to Linked List Problem");
+            LinkList list = new LinkList();
+            list.Add(56);
+            list.Add(30);
+            list.Add(70);
+            list.Display();
+
+            
         }
     }
 }
